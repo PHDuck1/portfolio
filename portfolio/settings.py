@@ -29,7 +29,8 @@ INSTALLED_APPS = [
     # "allauth.account",
 
     # Local
-    "accounts.apps.AccountsConfig",
+    'accounts.apps.AccountsConfig',
+    'pages.apps.PagesConfig'
 ]
 
 MIDDLEWARE = [
