@@ -1,6 +1,6 @@
 {% extends "_base.html" %}
 {% load crispy_forms_filters %}
-{% load socialaccount %}
+{#{% load socialaccount %}#}
 {% load crispy_forms_tags %}
 
 {% block title %}Sign Up{% endblock title %}
@@ -13,9 +13,9 @@
         <button class="btn btn-success" type="submit">Sign Up</button>
     </form>
 
-    <form action="{% provider_login_url 'google' %}">
-        {% csrf_token %}
-        <input class="btn btn-success" type="submit" value="Sign Up via Google"/>
-    </form>
+{#    <form action="{% provider_login_url 'google' %}">#}
+{#        {% csrf_token %}#}
+{#        <input class="btn btn-success" type="submit" value="Sign Up via Google"/>#}
+{#    </form>#}
     
 {% endblock content %}
