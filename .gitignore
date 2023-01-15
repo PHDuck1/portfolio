@@ -163,3 +163,5 @@ cython_debug/
 .dockerignore
 docker-compose.yml
 .idea/
+staticfiles/
+media/

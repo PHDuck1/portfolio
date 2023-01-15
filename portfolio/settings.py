@@ -30,7 +30,8 @@ INSTALLED_APPS = [
 
     # Local
     'accounts.apps.AccountsConfig',
-    'pages.apps.PagesConfig'
+    'pages.apps.PagesConfig',
+    'converter.apps.ConverterConfig',
 ]
 
 MIDDLEWARE = [
@@ -140,6 +141,8 @@ ACCOUNT_USERNAME_REQUIRED = False
 ACCOUNT_AUTHENTICATION_METHOD = "email"
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_UNIQUE_EMAIL = True
+
+FILE_UPLOAD_MAX_MEMORY_SIZE = 200
 
 # Media files
 MEDIA_URL = "/media/"
