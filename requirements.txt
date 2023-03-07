@@ -5,3 +5,6 @@ django-crispy-forms==1.14.0
 crispy-bootstrap5==0.7
 django-allauth==0.52.0
 Pillow==9.4.0
+django-dotenv
+
+reportlab~=3.6.12
